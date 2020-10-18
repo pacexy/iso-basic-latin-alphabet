@@ -1,7 +1,7 @@
 {
 	"name": "iso-basic-latin-alphabet",
-	"version": "0.1.0",
-	"main": "index.js",
+	"version": "1.0.0",
+	"main": "build/src/index.js",
 	"repository": "https://github.com/pacexy/iso-basic-latin-alphabet",
 	"author": "pacexy <pacexy@gmail.com>",
 	"license": "MIT",
