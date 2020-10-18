@@ -58,4 +58,4 @@ const lowercase = [
 
 const all = [...uppercase, ...lowercase]
 
-export { lowercase, uppercase, all }
+export = { lowercase, uppercase, all }
