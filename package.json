@@ -1,12 +1,13 @@
 {
 	"name": "iso-basic-latin-alphabet",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "build/src/index.js",
 	"repository": "https://github.com/pacexy/iso-basic-latin-alphabet",
 	"author": "pacexy <pacexy@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"prepare": "npm run build"
 	},
 	"devDependencies": {
 		"hitoka": "^0.2.4",
