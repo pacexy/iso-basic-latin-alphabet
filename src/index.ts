@@ -60,6 +60,6 @@ const xHeight = ['v', 'w', 'x', 'z']
 
 const xHeightGeneral = [...xHeight, 'a', 'c', 'e', 'm', 'n', 'o', 'r', 's', 'u']
 
-const alphabet = [...uppercase, ...lowercase]
+const all = [...uppercase, ...lowercase]
 
-export = { alphabet, lowercase, uppercase, xHeight, xHeightGeneral }
+export = { all, lowercase, uppercase, xHeight, xHeightGeneral }
