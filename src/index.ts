@@ -56,6 +56,10 @@ const lowercase = [
   'z',
 ]
 
-const all = [...uppercase, ...lowercase]
+const xHeight = ['v', 'w', 'x', 'z']
 
-export = { lowercase, uppercase, all }
+const xHeightGeneral = [...xHeight, 'a', 'c', 'e', 'm', 'n', 'o', 'r', 's', 'u']
+
+const alphabet = [...uppercase, ...lowercase]
+
+export = { alphabet, lowercase, uppercase, xHeight, xHeightGeneral }
