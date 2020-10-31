@@ -78,3 +78,15 @@ export const descender = ['g', 'p', 'q', 'y']
 export const descenderGeneral = [...descender, 'j']
 
 export const all = [...uppercase, ...lowercase]
+
+export default {
+  uppercase,
+  lowercase,
+  xHeight,
+  xHeightGeneral,
+  ascender,
+  ascenderGeneral,
+  descender,
+  descenderGeneral,
+  all,
+}
