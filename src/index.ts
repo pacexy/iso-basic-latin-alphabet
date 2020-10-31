@@ -1,4 +1,4 @@
-const uppercase = [
+export const uppercase = [
   'A',
   'B',
   'C',
@@ -27,7 +27,7 @@ const uppercase = [
   'Z',
 ]
 
-const lowercase = [
+export const lowercase = [
   'a',
   'b',
   'c',
@@ -56,10 +56,25 @@ const lowercase = [
   'z',
 ]
 
-const xHeight = ['v', 'w', 'x', 'z']
+export const xHeight = ['v', 'w', 'x', 'z']
+export const xHeightGeneral = [
+  ...xHeight,
+  'a',
+  'c',
+  'e',
+  'i',
+  'm',
+  'n',
+  'o',
+  'r',
+  's',
+  'u',
+]
 
-const xHeightGeneral = [...xHeight, 'a', 'c', 'e', 'm', 'n', 'o', 'r', 's', 'u']
+export const ascender = ['b', 'd', 'k', 'l']
+export const ascenderGeneral = [...ascender, 'f', 'h', 't']
 
-const all = [...uppercase, ...lowercase]
+export const descender = ['g', 'p', 'q', 'y']
+export const descenderGeneral = [...descender, 'j']
 
-export = { all, lowercase, uppercase, xHeight, xHeightGeneral }
+export const all = [...uppercase, ...lowercase]
